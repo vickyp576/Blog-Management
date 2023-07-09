@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Management</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Add New Blog</h1>
+  <div class="container">
+    <div id="blog-form">
+      <!-- <h2>Add a New Blog</h2> -->
+      <form id="add-blog-form">
+        <div>
+          <label for="blog-title">Title :</label><br><br>
+          <input type="text" id="blog-title" placeholder="Enter title here">
+        </div>
+        <div>
+          <label for="blog-content">Content :</label><br><br>
+          <textarea id="blog-content" placeholder="Enter content here" rows="10"></textarea>
+        </div>
+        <button type="submit">Add Blog</button>
+      </form>
+    </div>
+
+    <div id="blog-list">
+      <!-- <h1>Blog List</h1> -->
+      <!-- <ul id="blogs"></ul> -->
+      <ul id="blogs"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
